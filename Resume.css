@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+  }
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 600px;
+}
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .header {
+        border-radius: 50%;
+        
+      }
+      .alignleft {
+        float: left;
+    }
+    .alignright {
+        float: right;
+    }
+
